@@ -12,14 +12,6 @@ To run each program, create an input_labeled folder, and put the labeled.csv the
 Included:
 Project_Prediction: Includes the source code for the project. It also includes its own Makefile and pom.xml. 
 
-Report: Includes the required Report ChhedaShah.pdf
-
-predict_stderr.txt: Syslog file for successful run of Prediction program on AWS
-
-train_stderr.txt: Syslog file for successful run of Training program on AWS
-
-ChhedaShah.csv: Final prediction output file
-
 ---------------------------------------------------------------------------------------------------
 (Please Note: We have different jobs for Training and Prediction program, and one MakeFile. So to make it easier we have mentioned the necessary changes in both MakeFile and below. You can simply copy paste the changes to mentioned locations)
 
